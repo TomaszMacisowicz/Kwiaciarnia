@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/*    Created on : 2017-06-06, 12:48:21
+    Author     : MAC*/
+
+/*body{
+    background-image: url('images/2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}*/
+
+.navi{
+    position: relative;
+}
+.right-nav{
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+#logo {
+    margin-top: -26px;
+    margin-bottom: -10px;
+    height: 100px;
+
+
+}
+.navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+    color: #660066;
+}
+
+#oferta{
+    background-image: url('images/3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#galeria {
+    background-image: url('images/4.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#onas{
+    background-image: url('images/7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#kontakt{
+    background-image: url('images/6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.right-nav{
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 25px;
+}
