@@ -7,15 +7,16 @@ and open the template in the editor.
 /*    Created on : 2017-06-06, 12:48:21
     Author     : MAC*/
 
-/*body{
+.navi {
     background-image: url('images/2.jpg');
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-}*/
-
-.navi{
-    position: relative;
+    background-size: cover;
 }
+
+
+
 .right-nav{
     margin-right: 40px;
     margin-top: -10px;
@@ -35,25 +36,36 @@ and open the template in the editor.
 }
 
 #oferta{
-    background-image: url('images/3.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 24px;
+    padding: 220px;
+
 
 }
 #galeria {
-    background-image: url('images/4.jpg');
-    background-size: 100%;
+    background-image: url('images/7.jpg');
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    padding: 220px;
 }
 #onas{
-    background-image: url('images/7.jpg');
-    background-size: 100%;
+
     background-repeat: no-repeat;
+    padding: 220px;
 }
 #kontakt{
     background-image: url('images/6.jpg');
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 220px;
 }
 .right-nav{
     font-family: 'Walter Turncoat', cursive;
