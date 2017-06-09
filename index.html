@@ -14,14 +14,18 @@ and open the template in the editor.
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="style.css" type="text/css">
         <script src="script.js" type="text/javascript"></script>
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+
         <title>Kwiaciarnia Ewa</title>
     </head>
     <body>
+
         <div id="home" onclick="scroll.location.hash = 'back';">
+
             <nav class="navbar navbar-fixed-top">
 
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,103 +42,106 @@ and open the template in the editor.
                 <form class="navbar-form navbar-right">
                     <div class="right-nav">
                         <ul class="nav navbar-nav navbar-right">
+
                             <li><a href="#oferta">Oferta</a></li>
                             <li><a href="#galeria">Galeria</a></li>
                             <li><a href="#onas">O nas</a></li>
                             <li><a href="#kontakt">Kontakt</a></li>
                         </ul>
                     </div>
-                    </div>
+
             </nav>
-
-            <section>
+        </div>
+        <section>
+            <div class="row">
+                <div class="col-lg-12" id="first"></div></div>
+        </section>
+        <section>
+            <div id="oferta">
                 <div class="row">
-                    <div class="col-lg-12" id="first"></div></div>
-            </section>
-            <section>
-                <div id="oferta" onclick="scroll">
-                    <div class="row">
 
-                        <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
-                            <img id="icon" src="images/logo.png" alt=""/> NASZYM KLIENTOM OFERUJEMY :
-                        </p>
-                        <div class="col-md-4" >
-                            <ul>
-                                <li>Bukiety</li>
-                                <li>Kosze okolicznościowe</li>
-                                <li>Florystyka ślubna</li>
-                                <li>Florystyka żałobna</li>
-                                <li>Dekoracje świąteczne</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4" >
-                            <ul>
-                                <li>Kwiaty cięte</li>
-                                <li>Kwiaty doniczkowe</li>
-                                <li>Kwiaty sztuczne</li>
-                                <li>Bukiety okolicznościowe</li>
-                                <li>Kosze okolicznościowe</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul>
-                                <li>Bukiety ślubne</li>
-                                <li>Dekoracja kościoła</li>
-                                <li>Dekoracja samochodu</li>
-                                <li>Deroracja sal weselnych</li>
-                                <li>Zamówienia specjaline</li>
-                            </ul>
-                        </div>
+                    <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
+                        <img id="icon" src="images/logo.png" alt=""/> NASZYM KLIENTOM OFERUJEMY :
+                    </p>
+                    <div class="col-md-4" >
+                        <ul>
+                            <li>Bukiety</li>
+                            <li>Kosze okolicznościowe</li>
+                            <li>Florystyka ślubna</li>
+                            <li>Florystyka żałobna</li>
+                            <li>Dekoracje świąteczne</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" >
+                        <ul>
+                            <li>Kwiaty cięte</li>
+                            <li>Kwiaty doniczkowe</li>
+                            <li>Kwiaty sztuczne</li>
+                            <li>Bukiety okolicznościowe</li>
+                            <li>Kosze okolicznościowe</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Bukiety ślubne</li>
+                            <li>Dekoracja kościoła</li>
+                            <li>Dekoracja samochodu</li>
+                            <li>Deroracja sal weselnych</li>
+                            <li>Zamówienia specjaline</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div id="galeria" onclick="scroll">
-                    <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
-                        <img id="icon" src="images/logo.png" alt=""/> GALERIA NASZYCH WYROBÓW :
-                    </p>
-                </div>
-            </section>
-            <section>
-                <div id="onas" onclick="scroll.scroll">
-                    <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
-                        <img id="icon" src="images/logo.png" alt=""/> NASZA DZIAŁALNOŚĆ :
-                    </p>
-                </div>
-            </section>
-            <section>
-                <div id="kontakt" onclick=" scroll.scroll">
-                    <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
-                        <img id="icon" src="images/logo.png" alt=""/> DANE KONTAKTOWE :
-                    </p>
-                    <div class="row">
-                        <div class="col-md-4" style="text-align: center;">
-                            <p style="font-size: 35px;">Adres :</p>
-                            <p>ul. Walcownicza 14</p>
-                            <p>04-921 Warszawa</p>
-                            <p>woj. mazowieckie</p>
-                            <p>tel. 022 872 06 75</p>
-                            <p>mob. 505 123 622</p>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="googleMap" style="width:100%;height:400px;"></div>
-                        </div>
-                        <div class="col-md-4" style="text-align: center;">
-                            <p style="font-size: 35px;">Godziny otwarcia :</p>
-                            <p>Pn.  08:00 - 18:00</p>
-                            <p>Wt.  08:00 - 18:00</p>
-                            <p>Śr.  08:00 - 18:00</p>
-                            <p>Cz.  08:00 - 18:00</p>
-                            <p>Pt.  08:00 - 18:00</p>
-                            <p>Sb.  09:00 - 16:00</p>
-                        </div>
+            </div>
+        </section>
+        <section>
+            <div id="galeria" onclick="scroll">
+                <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
+                    <img id="icon" src="images/logo.png" alt=""/> GALERIA NASZYCH WYROBÓW :
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="onas" onclick="scroll">
+                <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
+                    <img id="icon" src="images/logo.png" alt=""/> NASZA DZIAŁALNOŚĆ :
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="kontakt" onclick=" scroll">
+                <p style="text-align: center; font-size: 40px; margin-bottom: 50px;">
+                    <img id="icon" src="images/logo.png" alt=""/>
+                    DANE KONTAKTOWE :
+                </p>
+                <div class="row">
+                    <div class="col-md-4" style="text-align: center;">
+                        <p style="font-size: 35px;">Adres :</p>
+                        <p>ul. Walcownicza 14</p>
+                        <p>04-921 Warszawa</p>
+                        <p>woj. mazowieckie</p>
+                        <p>tel. 022 872 06 75</p>
+                        <p>mob. 505 123 622</p>
                     </div>
-
+                    <div class="col-md-4">
+                        <div id="googleMap" style="width:100%;height:400px;"></div>
+                    </div>
+                    <div class="col-md-4" style="text-align: center;">
+                        <p style="font-size: 35px;">Godziny otwarcia :</p>
+                        <p>Pn.  08:00 - 18:00</p>
+                        <p>Wt.  08:00 - 18:00</p>
+                        <p>Śr.  08:00 - 18:00</p>
+                        <p>Cz.  08:00 - 18:00</p>
+                        <p>Pt.  08:00 - 18:00</p>
+                        <p>Sb.  09:00 - 16:00</p>
+                    </div>
                 </div>
-            </section>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKUnsEykT4Mu6gF2YQZzQjaBBvIoN9Aas&callback=myMap"></script>
-            <script src="script.js" type="text/javascript"></script>
-            <script src="js/bootstrap.js" type="text/javascript"></script>
-            <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+            </div>
+        </section>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKUnsEykT4Mu6gF2YQZzQjaBBvIoN9Aas&callback=myMap"></script>
+        <script src="script.js" type="text/javascript"></script>
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
