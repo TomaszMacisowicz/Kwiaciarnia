@@ -1,9 +1,9 @@
 
-/* global google */
+
 
 function myMap() {
     var mapProp = {
-        center: new google.maps.LatLng(51.508742, -0.120850),
+        center: new google.maps.LatLng(52.1623137, 21.215364),
         zoom: 12,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);

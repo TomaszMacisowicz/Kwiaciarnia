@@ -30,6 +30,12 @@ and open the template in the editor.
 
 
 }
+.navbar-default{
+    background:transparent;
+    border-color: transparent !important;
+}
+
+
 .navbar-brand{
     font-family: 'Marck Script', cursive;
     font-size: 35px;
@@ -55,8 +61,9 @@ and open the template in the editor.
     padding: 150px;
 }
 #onas{
-
-
+    margin-top: -30px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 18px;
     padding: 150px;
 }
 #kontakt{
@@ -67,7 +74,7 @@ and open the template in the editor.
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-    font-family: 'Carter One', cursive;
+    font-family: 'Walter Turncoat', cursive;
     font-size: 25px;
 }
 .right-nav{
