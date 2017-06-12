@@ -7,7 +7,9 @@ and open the template in the editor.
 /*    Created on : 2017-06-06, 12:48:21
     Author     : MAC*/
 
-
+body{
+    font-family: 'Walter Turncoat', cursive;
+}
 #first{
     background-image: url('images/2.jpg');
     background-attachment: fixed;
@@ -18,37 +20,27 @@ and open the template in the editor.
     margin-top: -20px;
     padding: 400px;
 }
-
-
-
-
-
+.navbar-fixed-top.scrolled .nav-link{
+    background: transparent !important;
+}
+.navbar-fixed-top.scrolled{
+    background-image: url('images/patterns/1p.png');
+    transition: background 1200ms linear ;
+}
 #logo {
     margin-top: -26px;
     margin-bottom: -10px;
     height: 100px;
-
-
 }
-.navbar-default{
-    background:transparent;
-    border-color: transparent !important;
-}
-
-
 .navbar-brand{
     font-family: 'Marck Script', cursive;
     font-size: 35px;
     color: #660066;
 }
-
 #oferta{
-
-    font-family: 'Walter Turncoat', cursive;
+    background-image: url('images/patterns/1p.png');
     font-size: 23px;
     padding: 150px;
-
-
 }
 #galeria {
     background-image: url('images/7.jpg');
@@ -56,13 +48,12 @@ and open the template in the editor.
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     background-repeat: no-repeat;
     padding: 150px;
 }
 #onas{
+    background-image: url('images/patterns/1p.png');
     margin-top: -30px;
-    font-family: 'Walter Turncoat', cursive;
     font-size: 18px;
     padding: 150px;
 }
@@ -74,14 +65,11 @@ and open the template in the editor.
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-    font-family: 'Walter Turncoat', cursive;
     font-size: 25px;
 }
 .right-nav{
-    font-family: 'Walter Turncoat', cursive;
     font-size: 25px;
 }
 #icon{
     size: 50px;
-
 }
