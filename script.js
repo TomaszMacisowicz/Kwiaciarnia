@@ -27,3 +27,12 @@ $(function () {
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });
+
+$(function () {
+    // View the selected photo at full size
+    $(".photo-image").click(function () {
+        $(this).addClass("photo-selected");
+        $(this).parent().addClass("photo-x");
+        $("#overlay").show();
+    });
+});

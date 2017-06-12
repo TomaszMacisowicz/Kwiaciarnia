@@ -10,8 +10,9 @@ and open the template in the editor.
 body{
     font-family: 'Walter Turncoat', cursive;
 }
+
 #first{
-    background-image: url('images/2.jpg');
+    background-image: url('images/1.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,45 +21,84 @@ body{
     margin-top: -20px;
     padding: 400px;
 }
+
 .navbar-fixed-top.scrolled .nav-link{
     background: transparent !important;
 }
+
 .navbar-fixed-top.scrolled{
     background-image: url('images/patterns/1p.png');
     transition: background 1200ms linear ;
 }
+
 #logo {
     margin-top: -26px;
     margin-bottom: -10px;
     height: 100px;
 }
+
 .navbar-brand{
     font-family: 'Marck Script', cursive;
     font-size: 35px;
     color: #660066;
 }
+
 #oferta{
     background-image: url('images/patterns/1p.png');
     font-size: 23px;
     padding: 150px;
 }
+
 #galeria {
-    background-image: url('images/7.jpg');
+    background-image: url('images/2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding-top: 20px;
+    padding-bottom: 300px;
 }
+
+.photo{
+    position:relative;
+    float:left;
+    height:100px;
+    width:100px;
+    background:#fff;
+    border:1px solid #999;
+    margin:20px;
+}
+
+.photo-image{
+    cursor: pointer;
+    position:relative;
+    top:9px;
+    left:9px;
+    width:80px;
+    border:1px solid #999;
+    z-index:1000;
+    opacity:0.6;
+    transition: width 1s, top 1s, left 1s, opacity 1s, z-index .01s;
+}
+
+.photo-image:hover{
+    width:400px;
+    top:-50px;
+    left:-50px;
+    z-index:1001;
+    opacity:1;
+}
+
 #onas{
     background-image: url('images/patterns/1p.png');
     margin-top: -30px;
     font-size: 18px;
     padding: 150px;
 }
+
 #kontakt{
-    background-image: url('images/13.jpg');
+    background-image: url('images/3.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,9 +107,11 @@ body{
     padding: 50px;
     font-size: 25px;
 }
+
 .right-nav{
     font-size: 25px;
 }
+
 #icon{
     size: 50px;
 }
