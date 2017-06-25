@@ -1,13 +1,23 @@
 
 
 
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(52.1623137, 21.215364),
-        zoom: 12,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+function initMap() {
+    var myLatLng = {lat: 52.1623137, lng: 21.215364};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: myLatLng,
+        gestureHandling: 'cooperative'
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Kwiaciarnia Ewa Macisowicz'
+    });
 }
+
 
 $(document).ready(function () {
     $('a[href^="#"]').click(function (e) {
